@@ -1,0 +1,89 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/College/Workspace/Modelsim_VHDL_V/fulladdercase
+Efulladdercase
+Z0 w1508997602
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dD:/College/Workspace/Modelsim_VHDL_V/Fourbit_RA
+Z4 8D:/College/Workspace/Modelsim_VHDL_V/Fourbit_RA/fulladdercase.vhd
+Z5 FD:/College/Workspace/Modelsim_VHDL_V/Fourbit_RA/fulladdercase.vhd
+l0
+L4
+VMLTcDzZ]AR30gAzg0QDa_2
+!s100 6M193n7:QlIC]JY?dLKPd2
+Z6 OP;C;10.4a;61
+32
+Z7 !s110 1508999888
+!i10b 1
+Z8 !s108 1508999888.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/Workspace/Modelsim_VHDL_V/Fourbit_RA/fulladdercase.vhd|
+Z10 !s107 D:/College/Workspace/Modelsim_VHDL_V/Fourbit_RA/fulladdercase.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit -O0
+Z12 tExplicit 1
+Abehavioural
+R1
+R2
+Z13 DEx4 work 13 fulladdercase 0 22 MLTcDzZ]AR30gAzg0QDa_2
+l15
+L11
+Z14 VVebf9nN[A8A6hAoH[g1@03
+Z15 !s100 Uh5QV:0LAHF=@niOaIF>@2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Erip_ad
+Z16 w1508999880
+R1
+R2
+R3
+Z17 8D:/College/Workspace/Modelsim_VHDL_V/Fourbit_RA/Fourbit_RA.vhd
+Z18 FD:/College/Workspace/Modelsim_VHDL_V/Fourbit_RA/Fourbit_RA.vhd
+l0
+L3
+VOkU@]G81^5[Yc^K?SR[Ej0
+!s100 L1b6fb=;WeJS7DzB>VAbP0
+R6
+32
+Z19 !s110 1508999887
+!i10b 1
+Z20 !s108 1508999887.000000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/College/Workspace/Modelsim_VHDL_V/Fourbit_RA/Fourbit_RA.vhd|
+Z22 !s107 D:/College/Workspace/Modelsim_VHDL_V/Fourbit_RA/Fourbit_RA.vhd|
+!i113 1
+R11
+R12
+Astructural_4
+R13
+R1
+R2
+DEx4 work 6 rip_ad 0 22 OkU@]G81^5[Yc^K?SR[Ej0
+l16
+L9
+VJmz`[J]RZKH3gJGGHWSRS0
+!s100 Acb<MD[7<^gJ84HidL?KN0
+R6
+32
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R11
+R12

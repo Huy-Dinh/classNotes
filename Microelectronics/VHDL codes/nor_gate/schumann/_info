@@ -1,0 +1,127 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Modeltech_pe_edu_10.4a/CLASS/nor_gate
+Enor_gate
+Z1 w1508405913
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/Modeltech_pe_edu_10.4a/CLASS/nor_gate/nor_gate.vhd
+Z5 FC:/Modeltech_pe_edu_10.4a/CLASS/nor_gate/nor_gate.vhd
+l0
+L4
+VgR8;1Y2X^Q`]5`W1ei0No1
+!s100 m;KknCl@1EmW5<@QCEM:h1
+Z6 OP;C;10.4a;61
+32
+Z7 !s110 1509107422
+!i10b 1
+Z8 !s108 1509107422.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/CLASS/nor_gate/nor_gate.vhd|
+Z10 !s107 C:/Modeltech_pe_edu_10.4a/CLASS/nor_gate/nor_gate.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit -O0
+Z12 tExplicit 1
+Anor_selected
+R2
+R3
+Z13 DEx4 work 8 nor_gate 0 22 gR8;1Y2X^Q`]5`W1ei0No1
+l17
+L14
+Z14 VRCOCT>R9Xz9TUhmhEfYSL1
+Z15 !s100 MGDi3X`ggcjUE0_jbUnU_0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Anor_logic1
+R2
+R3
+DEx4 work 8 nor_gate 0 22 ak9H@4m0h1C2iQ;VJD5Q_2
+l15
+L14
+V7SOA`RcNel^_f_0ZE<f9R0
+!s100 J78j6_8F`=J98BKhkGkk41
+R6
+32
+!s110 1508404142
+!i10b 1
+!s108 1508404142.000000
+R9
+R10
+!i113 1
+R11
+R12
+w1508404139
+Awhen_nor
+R2
+R3
+DEx4 work 8 nor_gate 0 22 PUGh_gSo2[_Uam_bPdoA[1
+l14
+L12
+V@`<ZJPgPRbjLDmY858OmT2
+!s100 m?MR`X<:2e:I]Pfhn7W183
+R6
+32
+!s110 1508403471
+!i10b 1
+!s108 1508403471.000000
+R9
+R10
+!i113 1
+R11
+R12
+w1508403469
+Anor_if
+R2
+R3
+DEx4 work 8 nor_gate 0 22 >ZDdkSGQz?zW<JZNo9Q@;2
+l14
+L12
+VDF>g8cQFhGIOb`[RimOma2
+!s100 F=0NN]h`OK7TB4OflZ`Z33
+R6
+32
+!s110 1508402976
+!i10b 1
+!s108 1508402976.000000
+R9
+R10
+!i113 1
+R11
+R12
+w1508402944
+Enor_gate_logic
+w1508403870
+R2
+R3
+R0
+R4
+R5
+l0
+L4
+V[8COL5PjgL9Ne1iME@DdU3
+!s100 25m1ccOQeB7Zbi:eFNnC<0
+R6
+32
+!s110 1508403872
+!i10b 1
+!s108 1508403872.000000
+R9
+R10
+!i113 1
+R11
+R12

@@ -1,0 +1,289 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Modeltech_pe_edu_10.4a/CLASS/what
+Ebutt_adder
+Z0 w1509102741
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dC:/Modeltech_pe_edu_10.4a/CLASS/full_adder
+Z4 8C:/Modeltech_pe_edu_10.4a/CLASS/full_adder/full_adder.vhd
+Z5 FC:/Modeltech_pe_edu_10.4a/CLASS/full_adder/full_adder.vhd
+l0
+L4
+VX5>zNF>Gj[<Xigz_9[fk_1
+!s100 0_oQ1ccOkeiPPR]SV_jkG3
+Z6 OP;C;10.4a;61
+32
+Z7 !s110 1509102823
+!i10b 1
+Z8 !s108 1509102823.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/CLASS/full_adder/full_adder.vhd|
+Z10 !s107 C:/Modeltech_pe_edu_10.4a/CLASS/full_adder/full_adder.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit -O0
+Z12 tExplicit 1
+Adataflow_full
+Z13 DEx4 work 10 half_adder 0 22 @jRJmf3G[<lOC>c>lj;<L0
+R1
+R2
+DEx4 work 10 butt_adder 0 22 X5>zNF>Gj[<Xigz_9[fk_1
+l16
+L9
+VLP[k@T1>;PW5KFcnz?OH`3
+!s100 gAgVzZnOM[9ieS1FDkY900
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Efull_adder
+Z14 w1509103364
+R1
+R2
+R3
+R4
+R5
+l0
+L4
+V80_aKH`2>S;<;3DkWjA6h1
+!s100 0F@NC1C^]Ycm2ehj?ie0M1
+R6
+32
+Z15 !s110 1509103383
+!i10b 1
+Z16 !s108 1509103383.000000
+R9
+R10
+!i113 1
+R11
+R12
+Adataflow_full
+R13
+R1
+R2
+Z17 DEx4 work 10 full_adder 0 22 80_aKH`2>S;<;3DkWjA6h1
+l16
+L9
+VzSB:fTal1zbdZ0zZ6:_?22
+!s100 L@OVMJWa@QeX]75Ognc222
+R6
+32
+R15
+!i10b 1
+R16
+R9
+R10
+!i113 1
+R11
+R12
+Astruc_dataflow_3
+R13
+R1
+R2
+R17
+l15
+L8
+V<VGL0ogSF@7oPS1O6O7Q?3
+!s100 SS]3Dzja2Q<=n>zazK6z61
+R6
+32
+!s110 1509090359
+!i10b 1
+!s108 1509090359.000000
+R9
+R10
+!i113 1
+R11
+R12
+w1509090351
+Astruc_dataflow_full
+Z18 DEx4 work 10 half_adder 0 22 n?kEc?KWRbV]Y7[@FIB`61
+R1
+R2
+Z19 DEx4 work 10 full_adder 0 22 ]71f=lAzKLnEc2z:Q<ZQB0
+l46
+L39
+VPTI=5O@d1;o:h9ohJk=c[2
+!s100 cHjNO=KglnIa8k0Dz?L7[0
+R6
+32
+!s110 1509088588
+!i10b 1
+!s108 1509088588.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/CLASS/full_adder/ripple_adder.vhd|
+Z21 !s107 C:/Modeltech_pe_edu_10.4a/CLASS/full_adder/ripple_adder.vhd|
+!i113 1
+R11
+R12
+Z22 FC:/Modeltech_pe_edu_10.4a/CLASS/full_adder/ripple_adder.vhd
+w1509089676
+Z23 8C:/Modeltech_pe_edu_10.4a/CLASS/full_adder/ripple_adder.vhd
+Ehalf_adder
+Z24 w1509090316
+R1
+R2
+R3
+Z25 8C:/Modeltech_pe_edu_10.4a/CLASS/full_adder/half_adder.vhd
+Z26 FC:/Modeltech_pe_edu_10.4a/CLASS/full_adder/half_adder.vhd
+l0
+L4
+V@jRJmf3G[<lOC>c>lj;<L0
+!s100 laGZgLKXhbM?eb7ch1M881
+R6
+32
+R15
+!i10b 1
+R16
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Modeltech_pe_edu_10.4a/CLASS/full_adder/half_adder.vhd|
+Z28 !s107 C:/Modeltech_pe_edu_10.4a/CLASS/full_adder/half_adder.vhd|
+!i113 1
+R11
+R12
+Adataflow
+R1
+R2
+R13
+l10
+L9
+Z29 V1Z;Rn5J[iVMN9CdL[nJ<C3
+Z30 !s100 L=b@[`oHj6JZQOT_h@6CD3
+R6
+32
+R15
+!i10b 1
+R16
+R27
+R28
+!i113 1
+R11
+R12
+Adataflow_half
+R1
+R2
+DEx4 work 10 half_adder 0 22 FBn8jWcDSlaWacmIKEORH2
+l11
+L10
+Vo<8BSC6A[jDWfRfdAdL9e3
+!s100 ZVfbo7KO]n:`1GJ?L1Q?40
+R6
+32
+!s110 1509089916
+!i10b 1
+!s108 1509089916.000000
+R27
+R28
+!i113 1
+R11
+R12
+w1509089691
+Adataflow_3
+R1
+R2
+R18
+l8
+L7
+VF92IXGkkMz:kdSF72@mJS2
+!s100 h<2nZHa;nY8XLJh5_7Y>R2
+R6
+32
+!s110 1508933628
+!i10b 1
+!s108 1508933628.000000
+R27
+R28
+!i113 1
+R11
+R12
+w1508929911
+Eripple_adder
+Z31 w1509102802
+R1
+R2
+R3
+R23
+R22
+l0
+L4
+V6nINm3R6]O_n[SCIOBAc20
+!s100 jOXZf4FgdgdGAI@X0HzRk2
+R6
+32
+Z32 !s110 1509103382
+!i10b 1
+Z33 !s108 1509103382.000000
+R20
+R21
+!i113 1
+R11
+R12
+Astruc_dataflow_3
+R17
+R1
+R2
+DEx4 work 12 ripple_adder 0 22 6nINm3R6]O_n[SCIOBAc20
+l19
+L11
+V>jD`E62WEZXWT9c[BfCoH3
+!s100 aTjz?h7UTI?aLlzcfRDz10
+R6
+32
+R32
+!i10b 1
+R33
+R20
+R21
+!i113 1
+R11
+R12
+Astruc_dataflow_ripple
+R19
+R1
+R2
+Z34 DEx4 work 12 ripple_adder 0 22 `N8c@X:S960`zX_H1=5za1
+l19
+L11
+V6@gHZgeR=zHN?8S=59kRJ3
+!s100 8>z3k@4meUck1XfUfZ]S91
+R6
+32
+!s110 1509088809
+!i10b 1
+!s108 1509088809.000000
+R20
+R21
+!i113 1
+R11
+R12
+w1509088795
+Astruc_dataflow_add
+DEx4 work 10 full_adder 0 22 FeffaTe7E4=>nY>DL^nYl1
+R1
+R2
+R34
+l19
+L11
+VPQmzb:9hHfjmOXW4do`mF1
+!s100 1WEel8j=BeBX>DUWWCfiP3
+R6
+32
+!s110 1509087886
+!i10b 1
+!s108 1509087886.000000
+R20
+R21
+!i113 1
+R11
+R12
+w1509087924

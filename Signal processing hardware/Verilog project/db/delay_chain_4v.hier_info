@@ -1,0 +1,13 @@
+|delay_chain_4v
+clk => dff_3.CLK
+clk => dff_2.CLK
+clk => dff_1.CLK
+clk => dff_0.CLK
+reset_n => dff_0.OUTPUTSELECT
+reset_n => dff_1.OUTPUTSELECT
+reset_n => dff_2.OUTPUTSELECT
+reset_n => dff_3.OUTPUTSELECT
+d => dff_0.DATAA
+q <= dff_3.DB_MAX_OUTPUT_PORT_TYPE
+
+

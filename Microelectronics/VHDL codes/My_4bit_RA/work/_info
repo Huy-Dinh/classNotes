@@ -1,0 +1,108 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/dinhq/Desktop/Notes in class/Microelectronics/VHDL codes/Fourbit_RA
+Eaddertestbench
+w1509111630
+Z0 dC:/Users/dinhq/Desktop/Notes in class/Microelectronics/VHDL codes/My_4bit_RA
+8C:/Users/dinhq/Desktop/Notes in class/Microelectronics/VHDL codes/My_4bit_RA/4_bit_RA_tb.vhd
+FC:/Users/dinhq/Desktop/Notes in class/Microelectronics/VHDL codes/My_4bit_RA/4_bit_RA_tb.vhd
+l0
+L1
+VaAhomaDoFaFbPE5dVL]DL3
+!s100 WgfGWl[mPClEZF>Ch<@P31
+Z1 OP;C;10.4a;61
+32
+!s110 1509111636
+!i10b 1
+!s108 1509111636.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/dinhq/Desktop/Notes in class/Microelectronics/VHDL codes/My_4bit_RA/4_bit_RA_tb.vhd|
+!s107 C:/Users/dinhq/Desktop/Notes in class/Microelectronics/VHDL codes/My_4bit_RA/4_bit_RA_tb.vhd|
+!i113 1
+Z2 o-work work -2002 -explicit -O0
+Z3 tExplicit 1
+Efulladdercase
+Z4 w1509110217
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z7 8C:/Users/dinhq/Desktop/Notes in class/Microelectronics/VHDL codes/My_4bit_RA/full_adder_case.vhd
+Z8 FC:/Users/dinhq/Desktop/Notes in class/Microelectronics/VHDL codes/My_4bit_RA/full_adder_case.vhd
+l0
+L4
+VMLTcDzZ]AR30gAzg0QDa_2
+!s100 6M193n7:QlIC]JY?dLKPd2
+R1
+32
+Z9 !s110 1509110228
+!i10b 1
+Z10 !s108 1509110227.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/dinhq/Desktop/Notes in class/Microelectronics/VHDL codes/My_4bit_RA/full_adder_case.vhd|
+Z12 !s107 C:/Users/dinhq/Desktop/Notes in class/Microelectronics/VHDL codes/My_4bit_RA/full_adder_case.vhd|
+!i113 1
+R2
+R3
+Abehavioural
+R5
+R6
+Z13 DEx4 work 13 fulladdercase 0 22 MLTcDzZ]AR30gAzg0QDa_2
+l15
+L11
+VVebf9nN[A8A6hAoH[g1@03
+!s100 Uh5QV:0LAHF=@niOaIF>@2
+R1
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R2
+R3
+Erip_ad
+Z14 w1509110345
+R5
+R6
+R0
+Z15 8C:/Users/dinhq/Desktop/Notes in class/Microelectronics/VHDL codes/My_4bit_RA/4_bit_RA.vhd
+Z16 FC:/Users/dinhq/Desktop/Notes in class/Microelectronics/VHDL codes/My_4bit_RA/4_bit_RA.vhd
+l0
+L3
+VS<m>]C=V6dAn^a:>zoG[]1
+!s100 =FU89=>ocdD6h;6kF7MT=0
+R1
+32
+Z17 !s110 1509111106
+!i10b 1
+Z18 !s108 1509111106.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/dinhq/Desktop/Notes in class/Microelectronics/VHDL codes/My_4bit_RA/4_bit_RA.vhd|
+Z20 !s107 C:/Users/dinhq/Desktop/Notes in class/Microelectronics/VHDL codes/My_4bit_RA/4_bit_RA.vhd|
+!i113 1
+R2
+R3
+Astructural_4
+R13
+R5
+R6
+DEx4 work 6 rip_ad 0 22 S<m>]C=V6dAn^a:>zoG[]1
+l17
+L10
+Vl@DDf<z@EZ^IQ3elM9_9m3
+!s100 kdWYTC4IE^UUC>8D^z?[@2
+R1
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R2
+R3

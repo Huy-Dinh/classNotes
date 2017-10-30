@@ -1,0 +1,83 @@
+SECOND WEEK (16/10) (FPGA)
+{
+	FPGA{
+		- Logic cells: lookup table through a D flip flop, output is selected by a multiplexer
+		- Hard IP/DSP blocks{
+			- readily implemented logic blocks inside an FPGA
+			- Low power consumption + high performance
+		}
+		- Uses phase locked loops (PLL) to boost the frequency of the oscillator to prevent possible RF effects on longer wires outside of the chip while still maintaining processing frequency.
+		- Is not "programmed" but "designed" through Hardware Description Languages (HDL)
+		- VOLATILE: as it is based off SRAM, an FPGA loses its configuration once power is off
+	}
+	
+	Verilog{
+		- Refer to testVerilog.v
+		- IMPORTANT: separate routing from clock, otherwise there would be a loss of resources
+	}
+}
+
+SECOND WEEK (19/10) (Verilog)
+{
+	Load/store architecture (used in most RISCs){
+		- 5 cycles: Instruction fetch - decode - execute - memory access - writeback
+	}
+	Verilog{
+		- reg: variables{
+			reg c;
+			wire a, b;
+			.
+			.
+			.
+			always @* // To simplify, use "always@(posedge clk)" (clocked operation)  
+				c = a & b; 
+		}
+		- wire: signal, can be used with "assign", (say, assign c = a & b){
+			wire a, b, c;
+			.
+			.
+			.
+			assign c = a & b;
+		}
+		- NAME THE FILE IDENTICAL TO THE MODULE
+		- DISTINGUISH <=  (sequential/non-blocking) AND = (combinational/blocking)
+	}
+}
+
+THIRD WEEK (23/10)
+{
+	Things going wrong without clock{
+		Examples:
+			- Combinational loop (Adder)
+	}
+	FPGA{
+		- Pin direction mapped onto IO cell
+	}
+	Simulation{
+		- Functional Simuation: do not take into account the delay.
+		- Netlist simulation: consider the delay.
+	}
+	The reason for having the duty_cycle 1 bit longer than the PWM counter is to make up for the fact that the highest voltage is absent when counting from 0 to max(pwm counter)
+}
+
+THIRD WEEK (26/10)
+{
+	PWM{
+		PWM frequency ~ (counter width & counter update rate (time base generator))
+		T(pwm) should be a result of 2^N to be meaningful (without the time value offset)
+		other structure for PWM{
+			use 2 PWM with fixed f and duty cycle, the 2nd one with a slightly longer T than the 1st, XOR them together
+		}
+	}
+	Triangular counter{
+		use the MSB as an extra bit for direction controlling
+		if (MSB)
+		{
+			return inversed
+		}
+		else
+		{
+			return 
+		}
+	}
+}

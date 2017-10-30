@@ -1,0 +1,41 @@
+SECOND_WEEK (16/10) (Objects)
+{
+	TERMS{
+		- deep/shallow copy (copy with/without dedicatedly allocated memory)
+	}
+}
+
+THIRD WEEK (23/10) 
+{
+	IN-CLASS METHOD SCOPING{
+		- destructors and constructors have to be public
+	}
+	DEEP COPY{
+		1. Copy normal atts
+		2. Allocate memory
+		3. Copy contents
+		We can overload the constructor using pointer (or reference) to another object as parameter to perform a deep copy manually
+		Explicit initialization or passing an argument by value results in the deep copy constructor being called
+	}
+	STATIC VAR{
+		- variable retains value among objects of the same class
+		- can be used (e.g) as counter for number of objects created
+		- DEFINED (Initialized) IN THE CPP FILE 
+		
+		- Static vars in functions make the functions non-reentrant.
+	}
+	CONST keyword{
+		- affect the data unit to the left of it.
+		- use to protect input parameter from being changed (say, a pointer from pointing elsewhere)
+		- to notify the compiler that a function will not change the content of a const object, write const to the right next to the function declaration: [void printf(void) const]; This must be done recursively (any other functions called by a const function should also be const)
+	}
+	SIZEOF{
+		- only return the number of bytes in an array if called in the same compilation unit as the array
+	}
+	OBJECT RELATIONS{
+			- Composition
+			- Aggregation
+			- Association
+			Any of the 3 above relation can be either one-one or one-many
+	}
+}

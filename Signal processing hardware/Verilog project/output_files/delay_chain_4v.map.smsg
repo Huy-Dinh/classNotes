@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at delay_chain_4.v(9): always construct contains both blocking and non-blocking assignments File: C:/Users/dinhq/Desktop/Notes in class/Signal processing hardware/Verilog project/delay_chain_4.v Line: 9
