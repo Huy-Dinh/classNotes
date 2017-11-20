@@ -1,3 +1,31 @@
 FIRST WEEK (20/10/2017)
 {
 }
+
+WEEK (3/11/2017)
+{
+	ILO (Input logic output) cycle
+}
+
+WEEK (10/11/2017)
+{
+	Impacts on run time{
+		- Busy waiting
+		- Load/interrupts
+		- Size (Assembly)
+		- Data (loops)
+		- Hardware
+	}
+}
+
+WEEK (17/11/2017)
+{
+	C vs. Cpp {
+		Cpp linker creates mangled names (func_name + param_name){
+			- This is how function overloading works (different params create different mangled names)
+			- jeopardize calling C and Cpp functions of the same name.{
+				- using extern "C" allows for calling C style functions inside a Cpp context.
+			}
+		}
+	}
+}

@@ -81,3 +81,55 @@ THIRD WEEK (26/10)
 		}
 	}
 }
+
+FIFTH WEEK (6/11) (Digital Function Generation)
+{
+	unsigned sawtooth up/down with/without offset (ezpz)
+	signed sawtooth{
+		use signed variables{
+			type cast using "$" {
+				$signal(...)
+			}
+			CODE_SAMPLE{
+			output reg signed output;
+			....
+			reg signed [3:0] q;
+			}
+		}		
+	}
+	increasing slopes of sawtooth counters{
+		- increase the delta by 1s{
+			for example +2 instead of +1 for every clock
+		}
+		- use fractional{
+			extra less significant bits in the accumulator value to represent the numbers behind the decimal point
+		}
+	}
+	
+	DDFS (Direct Digital Frequency Synthesis){
+		Increase frequency: multiples of increment values;
+		Decrease frequency: take into account the highest 8 (or COUNTER_LENGTH) bits only (halve the frequency for every bits neglected)
+	}
+}
+
+FIFTH WEEK(9/11)
+{
+	From accumulator to LUT => phase to amplitude conversion{
+		accumulator creates index (phase) looked up on the LUT which outputs amplitude
+		number of accumulator bits ~= phase resolution (say, 360deg/256)
+		fo = (FTW * f)/(2^n)
+		f = system clock
+		fo = output frequency
+		n = number of bits (Will not change when you halve the frequency by adding a fractional bit)
+		halving the frequency by adding bits => increase the frequency resolution
+	}
+	EXERCISE{
+		5A{
+			- Sweep: changes frequency overtime.
+			-  
+		}
+		Amplitude modulation: add a multiplier after the LUT
+		Frequency modulation: modify the increment value (Frequency tuning word)
+		Phase modulation: use a multiplexer to select the phase offset constant in the Adder before the LUT (between the  Reg and the LUT)
+	}
+}

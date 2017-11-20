@@ -39,3 +39,50 @@ THIRD WEEK (23/10)
 			Any of the 3 above relation can be either one-one or one-many
 	}
 }
+
+7TH WEEK (20/11)
+{
+	OPERATOR OVERLOADING{
+		(CComplex) myComplex + 1 compiles without the operator being overloaded correctly because the compiler casts the 1 into a CComplex (probably will not work correctly)
+		If Left hand operant is of different type to the class in question, declare the operator overloading function OUTSIDE of the class
+		FRIEND function modifier{
+			used to move the declaration of the operator overloading function inside the class declaration, this function can access the private attributes (+ functions) of the class
+		}
+		cout "<<" operator overloading{
+			DECLARATION{
+				friend std::ostream& operator<<(std::ostream& out, CComplex const& rop); 
+			}
+			IMPLEMENTATION{
+				using namespace std;
+				ostream& operator<<(ostream& out, CComplex const& rop)
+				{
+					out << rop.m_r << " +i "<< rop.m_i;
+					return out;
+				}
+			}
+		}
+		= or += operator overloading{
+			DECLARATION{
+				CComplex& operator=(CComplex const& rop);
+				CComplex& operator+=(float rop);
+			}
+			IMPLEMENTATION{
+				CComplex& operator=(CComplex const& rop)
+				{
+					this->m_r = rop.m_r;
+					this->m_i = rop.m_i;
+					return (*this);
+				}
+				CComplex& operator+=(float rop)
+				{
+					(*this) = (*this) + CComplex(rop);
+					return (*this);
+				}
+			}
+		}
+	}
+	
+	LIBRARIES{
+		
+	}
+}

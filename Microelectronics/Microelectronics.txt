@@ -1,0 +1,20 @@
+FIRST DAY (Memories, bits, bytes, performance)
+{
+	MEMORY (){
+		TRIVIA (lol){
+		- Webs use big endian, uC uses little endian. Reasons unknown
+		}
+	}
+	
+	PERFORMANCE(){
+		BENCHMARK(){
+			- LINPACK
+			- Whetstone
+			- Dhrystone "DMIPS"
+			- Coremark 
+		}
+		TRIVIA(){
+			- mA/MHz caused by the need to charge caps when switching bits (Higher the frequency, higher the Amp)
+		}
+	}
+}

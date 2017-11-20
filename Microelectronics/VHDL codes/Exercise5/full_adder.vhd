@@ -1,22 +1,19 @@
-library ieee;
-use ieee.std_logic_1164.all;
-
 entity full_adder is
-port (x, y, z : in std_logic;
-	s, c : out std_logic);
+port (x, y, z : in BIT;
+	c, s : out BIT);
 end full_adder;
 
 architecture dataflow_full of full_adder is
 	component half_adder
-		port(a, b : in std_logic;
-		s, c : out std_logic);
+		port(a, b : in BIT;
+		c, s : out BIT);
 	end component;
-	signal hs, hc, tc: std_logic;
+	signal hs, hc, tc: BIT;
 	FOR HA1,HA2: half_adder USE ENTITY work.half_adder;
 	begin
 		HA1: half_adder
-		port map (x, y, hs, hc);
+		port map (x, y, hc, hs);
 		HA2: half_adder
-		port map (hs, z, s, tc);
+		port map (hs, z, tc, s);
 		c <= tc or hc;
 end dataflow_full;
